@@ -68,6 +68,10 @@ void print_magic(unsigned char *e_ident)
 	}
 }
 
+/**
+ * print_class - Prints the class of an ELF header.
+ * @e_ident: A pointer to an array containing the ELF class.
+ */
 void print_class(unsigned char *e_ident)
 {
 	printf("  Class:                             ");
